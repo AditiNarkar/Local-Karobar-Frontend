@@ -1,0 +1,86 @@
+.maps-input-search-main-container{
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(53, 49, 49, 0), rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.685) 30%);
+    top: 90px;
+    right: 0px;
+    z-index: 1500;
+    width: 550px;
+    height: 500px;
+    font-size: 16px;
+}
+
+.maps-input-search-main-container .maps-search-input,
+.maps-input-search-main-container .ul-searchbyaddress,
+.maps-input-search-main-container .text-submission{
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: rgb(255, 255, 255);
+    position: inherit;
+    top: 10px;
+    right: 55px;
+    width: 440px;
+    height: fit-content;
+}
+
+.maps-input-search-main-container .text-submission{
+    background-color: rgba(0, 0, 0, 0.87);
+    position: absolute;
+    left: -800px;
+    top: 400px;
+    height: 40px;
+    width: 150%;
+}
+
+.maps-input-search-main-container .ul-searchbyaddress {
+    right: 5px;
+    width: 490px;
+    top: 70px;
+    max-height: 420px;
+    overflow: auto;
+}
+
+.maps-input-search-main-container .ul-searchbyaddress li{
+    color: rgb(187, 223, 255);
+    list-style-type: none;
+    
+}
+/* .maps-search-input .form-control{
+    font-size: 14px;
+    /* height: fit-content;
+} */
+/* .ul-searchbyaddress .list-group-item{
+    font-size: 14px;
+    margin: 0;
+} */
+
+.maps-input-search-main-container button.search-btn-maps{
+    top: 10px;
+    padding: 5px;
+    background-color: rgba(255, 174, 0, 0.637);
+    position: inherit;
+    right: 5px;
+    font-size: 14px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.maps-input-search-main-container button.submit-button-address-maps{
+    position: inherit;
+    left: -800px;
+    bottom: 25px;
+    height: 30px;
+    width: 100px;
+    border: 0;
+    /* padding: 10px 30px 10px 30px; */
+    padding-top: 2px;
+    background-color: transparent;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #fae73d, #ff8642);
+    box-shadow: 0 12px 4.41px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    font-family: Jomhuria;
+    color: #79541b;
+    text-align: center;
+}

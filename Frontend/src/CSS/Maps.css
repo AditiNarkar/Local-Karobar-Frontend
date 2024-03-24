@@ -1,0 +1,61 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+.maps-header{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #fae73d, #ffb342);
+  font-family: Jomhuria;
+  font-size: 40px;
+  color: #79541b;
+  height: 90px;
+}
+.maps-header .logo-h1{
+   text-align: center;
+   height: 45px;
+  align-items: center;
+}
+.maps-header .map-divider{
+  margin: 0 15px 0 10px;
+  width: 98%;
+  background-color: darkgreen;
+  height: 2px;
+}
+.maps-header .maps-tabs{
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  font-size: 30px;
+}
+.maps-header .maps-tabs div{
+  padding: 0 15px 0 15px;
+  border-radius: 27px;
+  margin: 5px 20px 5px 20px;
+}
+.maps-header .maps-tabs .maps-tabs-active,
+.maps-header .maps-tabs div:hover  {
+  background-color: #b1850d8a;
+}
+.maps-header .maps-tabs div:hover{
+  cursor: pointer;
+}
+
+.maps-header .maps-tabs .divider-tabs{
+  padding: 0 0 0 0;
+  width: 2px;
+  background-color: darkgreen;
+  margin: 5px 0 5px 0;
+  overflow: hidden;
+}
+
+.Maps-main{
+  width: 1350px;
+  height: 500px;
+  /* background-color: #fae73d; */
+}

@@ -1,0 +1,318 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.copyright-footer9 {
+  position: relative;
+}
+/* .footer9 {
+  position: absolute;
+  top: 748px;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 1350px;
+  height: 91px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-heebo);
+} */
+.yellow-box-before11 {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  background: linear-gradient(180deg, #f6cf02, rgba(255, 153, 0, 0));
+  width: 1040px;
+  height: 144px;
+  overflow: hidden;
+}
+.signup3 {
+  position: absolute;
+  top: 19px;
+  left: 312px;
+  font-size: var(--font-size-29xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 35px;
+}
+.logo-1-icon9 {
+  position: absolute;
+  top: 68px;
+  left: 164px;
+  width: 186px;
+  height: 168px;
+  object-fit: cover;
+}
+.create-account1 {
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-jomhuria);
+  color: var(--color-saddlebrown-100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 36px;
+  flex-shrink: 0;
+  text-shadow: 0 4.41015625px 4.41px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1.1px transparent;
+}
+.create-acc-btn,
+.email8,
+.password2,
+.username {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create-acc-btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-11xl) 23.1533203125px;
+  background-color: transparent;
+  top: 475px;
+  left: 586px;
+  border-radius: var(--br-25xl-1);
+  background: linear-gradient(180deg, #fae73d, #ff8642);
+  box-shadow: 0 12px 4.41px rgba(0, 0, 0, 0.5);
+  width: 233px;
+  height: 42px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.email8,
+.password2,
+.username {
+  top: 214px;
+  left: 0;
+  width: 320px;
+  height: 49px;
+}
+.email8,
+.username {
+  top: 130px;
+  left: 38px;
+  width: 220.72px;
+}
+.username {
+  top: 47px;
+  left: 18px;
+}
+.email-input9,
+.password-input3,
+.username-input {
+  position: absolute;
+  top: 248px;
+  left: 74px;
+  background-color: var(--color-white);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  width: 371px;
+  height: 30px;
+  overflow: hidden;
+}
+.email-input9,
+.username-input {
+  top: 165px;
+}
+.username-input {
+  top: 81px;
+}
+.password3,
+.tagline1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tagline1 {
+  top: 0;
+  left: 80px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-saddlebrown-200);
+  width: 360px;
+  height: 35px;
+}
+.password3 {
+  top: 297px;
+  left: 8px;
+  width: 320px;
+  height: 49px;
+}
+.password-input4 {
+  position: absolute;
+  top: 331px;
+  left: 74px;
+  background-color: var(--color-white);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  width: 371px;
+  height: 30px;
+  overflow: hidden;
+}
+.right-side3 {
+  position: absolute;
+  top: 89px;
+  left: 442px;
+  width: 445px;
+  height: 361px;
+  color: var(--color-darkgreen);
+}
+.span {
+  color: var(--color-black);
+}
+.log-in {
+  color: var(--color-darkgreen);
+}
+.already-a-member-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.already-a-member-container {
+  position: absolute;
+  top: 487px;
+  left: 71px;
+  display: flex;
+  align-items: center;
+  width: 326px;
+  height: 44px;
+}
+.divider15 {
+  position: absolute;
+  top: 63px;
+  left: 35px;
+  background-color: var(--color-darkolivegreen-100);
+  width: 956px;
+  height: 1px;
+  overflow: hidden;
+}
+.demo2-removebg-preview-2-icon2 {
+  position: absolute;
+  top: 219px;
+  left: 85px;
+  width: 350px;
+  height: 136px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+.demo2-removebg-preview-2-icon2.animate {
+  animation: 1s ease 100ms 1 normal forwards pulsate;
+}
+.demo2-removebg-preview-1-icon2 {
+  position: absolute;
+  top: 335px;
+  left: 15px;
+  width: 489px;
+  height: 138px;
+  object-fit: cover;
+  opacity: 1;
+}
+.demo2-removebg-preview-1-icon2.animate {
+  animation: 1s ease 1000ms 1 normal forwards pulsate;
+}
+.yellow-box7 {
+  position: absolute;
+  top: 45px;
+  left: 162px;
+  border-radius: var(--br-51xl);
+  background: linear-gradient(76.69deg, #ffc530 19.64%, #fcff52 94.18%);
+  box-shadow: -23px 23px 33px rgba(0, 0, 0, 0.25);
+  width: 1027px;
+  height: 569px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-saddlebrown-200);
+  font-family: var(--font-jomhuria);
+}
+.about9,
+.contact19 {
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: hard-light;
+}
+.contact19 {
+  position: absolute;
+  left: 139.33px;
+  width: 98.33px;
+  height: 29px;
+}
+.about9 {
+  left: 17px;
+  width: 79.33px;
+}
+.about9,
+.home9,
+.nav-links9,
+.navbar9 {
+  position: absolute;
+  height: 29px;
+}
+.home9 {
+  top: 0;
+  left: -111px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 79.33px;
+  mix-blend-mode: hard-light;
+}
+.nav-links9,
+.navbar9 {
+  top: 8px;
+  left: 149px;
+  width: 237.66px;
+}
+/* .navbar9 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gold);
+  width: 1350px;
+  height: 37px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkolivegreen-200);
+  font-family: var(--font-jomhuria);
+} */
+.signup-page {
+  position: relative;
+  background: linear-gradient(240.98deg, #fcff73, #fec673);
+  width: 100%;
+  height: 839px;
+  overflow: auto;
+}
+
+input{
+  border: none;
+}

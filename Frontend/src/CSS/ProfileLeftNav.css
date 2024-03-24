@@ -1,0 +1,78 @@
+.logo-1-icon6 {
+  position: absolute;
+  top: 7px;
+  left: 89px;
+  width: 125px;
+  height: 87px;
+  object-fit: cover;
+}
+
+.left-side-nav1 {
+position: fixed;
+overflow: hidden;
+}
+
+.left-side-nav1 {
+margin: 0 !important;
+top: 37px;
+left: 0;
+background: linear-gradient(179.44deg, #ffa842 12.29%, rgba(255, 160, 49, 0));
+width: 312px;
+height: 552px;
+flex-shrink: 0;
+z-index: 5;
+text-align: center;
+}
+
+.hello-username1,
+.profile44,
+.profile45,
+.profile46 {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 312px;
+  height: 23px;
+}
+.hello-username1 {
+  top: 106px;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-jomhuria);
+  color: var(--color-darkolivegreen-200);
+  height: 29px;
+  mix-blend-mode: hard-light;
+}
+
+.divider11 {
+  position: absolute;
+  top: 151px;
+  left: 12px;
+  background-color: var(--color-darkolivegreen-100);
+  width: 277px;
+  height: 1px;
+}
+
+.profile44 {
+  top: 203px;
+}
+.profile45{
+  top: 278px;
+}
+.profile46 {
+    top: 241px;
+  }
+
+.profile44:hover, .profile45:hover, .profile46:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.active{
+    color: var(--color-black);
+}
+
+.active:hover{
+    transform: scale(1);
+}
